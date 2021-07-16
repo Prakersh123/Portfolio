@@ -12,19 +12,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html{
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+  color: #d0f0ed;
+
+}
+a:hover{
+  text-decoration: none;
+  color: #d0f0ed;
+  color: white;
+  border-bottom-width: 0px;
+  /* border-width: 1px; */
+  border-top: 1px solid white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.arya2
+{
+  text-decoration: none;
+  /* color;s */
+  color:blue;
+}
+
 
 
 .navUl{
+  position: fixed;
+  /* top: */
+  top: 0;
+  width: 100%;
   list-style-type: none;
   text-align: right;
   margin-top: 0;
   padding-top: 1%;
-  position: sticky;
-  top: 0;
+  
   background-color: #256D66;
   padding-bottom: 1%;
 }
-.navUl li{
+.navUl li {
     display: inline;
     margin: 3%;
   color: #d0f0ed;
@@ -99,7 +129,7 @@ code {
   font-size: x-large;
 }
 
-.socialmediaUl li{
+.socialmediaUl li {
   display: inline;
   /* text-align: left; */
   margin-right: 10%;
@@ -118,7 +148,23 @@ code {
 cursor: pointer;
 }
 
+.int{
+  text-decoration: none;
+ color: white;
+ 
 
+
+}
+.int:hover{
+  text-decoration: none;
+  color: white;
+  margin-right: 10%;
+  /* border: 2px solid gray; */
+  border-bottom: 4px white solid;
+ font-size: xx-large;
+
+cursor: pointer;
+}
 
 .aboutDiv{
     background-color: #ecfff7;
@@ -156,6 +202,7 @@ justify-content: space-between;
   padding: 7%;
   /* flex-direction: column; */
   align-items: center;
+    
 }
 
 .edu_img
@@ -168,16 +215,119 @@ justify-content: space-between;
 
 
 
+.My_skill{
+  margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+.my_skill_items
+{
+  margin: 10px;
+  /* background-color: aquamarine;
+   */
+   /* margin: 10px; */
+   /* margin-top: 30px; */
+   /* margin-bottom: 15px; */
+  border: 2px solid teal;
+  box-shadow: 5px 5px  #06975b;
+  border-bottom-right-radius: 20%;
+  border-top-left-radius: 20%;
+  transition: transform 0.5s linear;
+ background-color:  #e7ffe7;
+ 
+}
 
 
+.my_skill_items:hover
+{
+  margin: 10px;
+  /* margin-top: 40px; */
+  /* margin-bottom: 40px; */
+  /* margin-bottom: 15px; */
+  /* background-color: aquamarine;
+   */
+  border: 2px solid teal;
+  box-shadow: 5px 5px 18px  #06975b;
+  border-bottom-left-radius: 20%;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 0%;
+  border-top-left-radius: 0%;
+  cursor: pointer;
+  transform: translate(0px,-20px); /* Standard syntax */
+    background-color: #256D66;
+    color: white;
+}
 
 
+.Foot{
+  margin-top: 10%;
+  /* background-color:black ; */
+  background-image: linear-gradient(to right, rgb(3, 37, 20) , rgb(235, 235, 188));
 
+  text-align: center;
+  color: #e7ffe7;
+}
 
+.my_project
+{
+  display: flex;
+  justify-content: space-around;
+  margin: 7%;
+}
+.my_project_items
+{
+  text-align: center;
+}
 
-
+.arya
+{
+  width: 50%;
+}
+.my_project_items:hover{
+  border: 2px rgb(4, 4, 75) solid;
+  border-bottom-left-radius: 40%;
+  border-top-right-radius: 40%;
+  box-shadow: 5px 5px teal;
+  width: 59%;
+  background-color: rgb(207, 243, 241);
+  color: rgb(4, 4, 75);
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 600px) {
+
+  .navUl{
+    list-style-type: none;
+    text-align: left;
+    margin-top: 0;
+    padding-top: 5%;
+    position: sticky;
+    top: 0;
+    background-color: #256D66;
+    padding-bottom: 1%;
+  }
+  .navUl li {
+      display: inline;
+      margin: 2%;
+    color: #d0f0ed;
+    border-bottom: 2px solid #d0f0ed;
+    transition: border-width 0.3s linear;
+    transition: font-weight 0.3s ease-in-out ;
+  }
+  .navUl li:hover{
+    color: white;
+    border-bottom-width: 0px;
+    /* border-width: 1px; */
+    border-top: 1px solid white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+  
+
+
+
   .nameDiv{
     margin:5%;
     display: flex;
@@ -285,6 +435,64 @@ justify-content: space-between;
 .edu_img
 {
   height: 100px;
+}
+
+
+
+.My_skill{
+  margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+  }
+
+.my_skill_items
+{
+  margin: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #d0f0ed;
+
+}
+a:hover{
+  text-decoration: none;
+  color: #d0f0ed;
+  color: white;
+  border-bottom-width: 0px;
+  /* border-width: 1px; */
+  border-top: 1px solid white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+
+.my_project
+{
+  display: flex;
+  /* justify-content: space-around;
+   */
+  flex-direction: column-reverse;
+  align-items: center;
+   margin: 7%;
+}
+.my_project_items
+{
+  text-align: center;
+  width: 100%;
+}
+
+.my_project_items:hover{
+  border: 2px rgb(4, 4, 75) solid;
+  border-bottom-left-radius: 40%;
+  border-top-right-radius: 40%;
+  box-shadow: 5px 5px teal;
+  width: 100%;
+  background-color: rgb(207, 243, 241);
+  color: rgb(4, 4, 75);
+  cursor: pointer;
 }
 
 }

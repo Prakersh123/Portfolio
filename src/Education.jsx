@@ -2,7 +2,10 @@ import React from 'react'
 
 const Education = () => {
     return (
-        <div className="Education">
+        <>
+       <u> <h1  style={{textAlign:'center',margin:'20px', textShadow:' 3px 3px 6px  grey'}}>Education</h1></u>
+
+        <div className="Education" id="education">
             <div className="eduDiv">
                     <div style={{textAlign:'center'}} >
                     <h1><img className="edu_img" src="https://i.ya-webdesign.com/images/school-icon-png-5.png"/></h1>
@@ -26,6 +29,7 @@ const Education = () => {
 
             </div>
         </div>
+        </>
     )
 }
 

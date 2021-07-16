@@ -1,22 +1,26 @@
 import React from 'react'
-import My_img from './My_img.jpg'
+import Grp from './Grp.jpg'
+import Ap from './Ap.jpg'
+import Code from './Code.jpg'
+
+
 const About = () => {
     return (
 
-        <div className="aboutDiv">
+        <div className="aboutDiv" id="aboutDiv">
             
             
 
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" style={{marginRight:'20px'}}>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={My_img} className="d-block w-100" style={{borderRadius:'50%', height:'300px', width:'auto', objectFit:"cover" }} alt="..."/>
+      <img src={Ap} className="d-block w-100" style={{borderRadius:'50%', height:'300px', width:'auto', objectFit:"cover" }} alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src={My_img} className="d-block w-100" style={{borderRadius:'50%', height:'300px', width:'auto', objectFit:"cover"}} alt="..."/>
+      <img src={Grp} className="d-block w-100" style={{borderRadius:'50%', height:'300px', width:'auto', objectFit:"cover"}} alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src={My_img} className="d-block w-100" style={{borderRadius:'50%', height:'300px', width:'auto', objectFit:"cover"}} alt="..."/>
+      <img src={Code} className="d-block w-100" style={{borderRadius:'50%', height:'300px', width:'auto', objectFit:"cover"}} alt="..."/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -33,7 +37,7 @@ const About = () => {
 
 
 
-           <div className="aboutdiv">
+           <div className="aboutdiv" >
             <h1>About Me</h1>
             <p>
             Hey, I'm computer science undergrad pursuing B.Tech from Rajkiya Engineering College , Sonbhadra. I am quite passionate about programming , who loves to solve real life problems and applying his knowledge to come up with a great solution.
