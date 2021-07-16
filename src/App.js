@@ -4,10 +4,10 @@ import Nav from './Nav';
 import Intro from './Intro';
 import About from './About';
 import Education from './Education';
-import My_skill from './My_skill';
+import Myskill from './Myskill';
 // import Contact from './Contact';
 import Footer from './Footer';
-import My_projects from './My_projects';
+import Myprojects from './Myprojects';
 function App() {
   return (
     < >
@@ -18,9 +18,9 @@ function App() {
         </div>
         <About/>
         <Education/>
-        <My_skill/>
+        <Myskill/>
         {/* <Contact/> */}
-        <My_projects/>
+        <Myprojects/>
       <Footer/>
     </>
   );

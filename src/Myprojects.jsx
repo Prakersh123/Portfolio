@@ -18,7 +18,7 @@ const My_projects = () => {
                     Then using those details all the above cards are created automatically. We can select options in nav bar to filter
                     the result accordingly. It is fully responsive webpage, so it's also look good in mobile as well.
                 </p>
-                <button className="btn btn-outline-primary"><a className="arya2" target="_blank" href="https://coding-ninjas-event-page-replicated.vercel.app/" style={{textDecoration:'none'}}>Watch it Live</a></button>
+                <button className="btn btn-outline-primary"><a className="arya2" target="_blank" rel="noreferrer" href="https://coding-ninjas-event-page-replicated.vercel.app/" style={{textDecoration:'none'}}>Watch it Live</a></button>
             </div>
             
             
@@ -33,7 +33,7 @@ const My_projects = () => {
                     It was a good practice for me in the journey of Web Developer.
                     
                 </p>
-                <button className="btn btn-outline-primary"><a className="arya2" target="_blank" href="https://prakersh123.github.io/CandyCrush/" style={{textDecoration:'none'}}>Watch it Live</a></button>
+                <button className="btn btn-outline-primary"><a className="arya2" target="_blank"  rel="noreferrer"href="https://prakersh123.github.io/CandyCrush/" style={{textDecoration:'none'}}>Watch it Live</a></button>
             </div>
             <img className="my_project_items" src={Candy}  alt="not_found"  style={{borderRadius:'2%', height:'200px', width:'auto', objectFit:"cover"}}  />
 
@@ -52,7 +52,7 @@ const My_projects = () => {
                    initial sudoku state and then it will solve that soduku using Backtracking , will give you final answer.
                     
                 </p>
-                <button className="btn btn-outline-danger"><a className="arya2" target="_blank" href="https://prakersh123.github.io/Sudoku/" style={{textDecoration:'none',color:'n'}}>Watch it Live</a></button>
+                <button className="btn btn-outline-danger"><a className="arya2" target="_blank"  rel="noreferrer"href="https://prakersh123.github.io/Sudoku/" style={{textDecoration:'none',color:'n'}}>Watch it Live</a></button>
             </div>
 
             

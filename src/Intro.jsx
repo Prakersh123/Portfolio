@@ -18,10 +18,10 @@ const Intro = () => {
             <h3>Competitive Programmer | Web Developer</h3>
             {/* <h4>Follow me ⤵️</h4> */}
             <ul className="socialmediaUl">
-                <li><a className="int" href="https://in.linkedin.com/in/prakersh-kumar-arya-b42255194?trk=public_profile_browsemap_mini-profile_title" target="_blank"><FaLinkedinIn/> </a>     </li>
-                <li><a className="int" href="https://github.com/Prakersh123" target="_blank"><DiGithubAlt/> </a>     </li>
-                <li><a className="int" href="https://www.instagram.com/prakersharya/" target="_blank"><FaInstagram/>   </a>     </li>
-                <li><a className="int" href="https://www.codechef.com/users/prakersh" target="_blank"><SiCodechef/>   </a>     </li>
+                <li><a className="int" href="https://in.linkedin.com/in/prakersh-kumar-arya-b42255194?trk=public_profile_browsemap_mini-profile_title" target="_blank" rel="noreferrer"><FaLinkedinIn/> </a>     </li>
+                <li><a className="int" href="https://github.com/Prakersh123" target="_blank" rel="noreferrer" ><DiGithubAlt/> </a>     </li>
+                <li><a className="int" href="https://www.instagram.com/prakersharya/" target="_blank" rel="noreferrer" ><FaInstagram/>   </a>     </li>
+                <li><a className="int" href="https://www.codechef.com/users/prakersh" target="_blank"rel="noreferrer" ><SiCodechef/>   </a>     </li>
 
              
 
