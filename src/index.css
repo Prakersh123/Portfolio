@@ -39,6 +39,16 @@ a:hover{
   color:blue;
 }
 
+.contactflex
+{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 34%;
+
+  
+}
+
 
 
 .navUl{
@@ -294,9 +304,28 @@ justify-content: space-between;
   color: rgb(4, 4, 75);
   cursor: pointer;
 }
-
+.subbtn
+{
+  width: 35%;
+  margin-top: 5px;
+  margin-left: 30%;
+}
 @media only screen and (max-width: 600px) {
-
+  .contactflex
+  {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+  
+    
+  }
+  .subbtn
+  {
+    width: 35%;
+    margin-top: 5px;
+    margin-left: 30%;
+  }
   .navUl{
     list-style-type: none;
     text-align: left;
@@ -495,4 +524,8 @@ a:hover{
   cursor: pointer;
 }
 
+
+
+
 }
+

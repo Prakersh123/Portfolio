@@ -5,7 +5,7 @@ import Intro from './Intro';
 import About from './About';
 import Education from './Education';
 import Myskill from './Myskill';
-// import Contact from './Contact';
+import Contact from './Contact';
 import Footer from './Footer';
 import Myprojects from './Myprojects';
 function App() {
@@ -19,8 +19,9 @@ function App() {
         <About/>
         <Education/>
         <Myskill/>
-        {/* <Contact/> */}
         <Myprojects/>
+        <Contact/>
+
       <Footer/>
     </>
   );
