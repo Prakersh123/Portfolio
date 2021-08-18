@@ -26,7 +26,7 @@ const call_me=(e)=>{
                <u> <h1  style={{textAlign:'center',margin:'20px', textShadow:' 3px 3px 6px  grey'}}>Contact Me</h1></u>
                
                <div className="jumbotron" id="contact">
-                    <form onSubmit={handleSubmit} method="post" action=" https://fast-atoll-94938.herokuapp.com/ ">
+                    <form onSubmit={handleSubmit} method="post" action=" https://fast-atoll-94938.herokuapp.com/">
                         <div className="contactflex" >
                           <label htmlFor="name">
                               Your Name:
