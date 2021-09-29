@@ -2,11 +2,26 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './reportWebVitals';import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Login from './components/Login';
+import Uploadnotification from './components/Uploadnotification';
 
 ReactDOM.render(
+  
   <React.StrictMode>
-    <App />
+    <Router>
+      <Route exact path="/" component={App} />
+      <Route exact path="/login" component={Login} />
+      <Route exact path="/uploadfile" component={Uploadnotification} />
+  
+ 
+    {/* <App /> */}
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

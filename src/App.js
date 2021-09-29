@@ -11,6 +11,7 @@ import Myprojects from './Myprojects';
 function App() {
   return (
     < >
+    
         <Nav/>
       
         <div style={{position:'relative', paddingBottom:'5px', backgroundColor:'#256D66', transform: 'rotate(-0.8deg)'}}>

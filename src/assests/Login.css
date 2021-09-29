@@ -1,0 +1,14 @@
+.login_form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10%;
+    padding: 5%;
+    border:2px solid green;
+    width: 30%;
+}
+
+.login_form button{
+    width: 70%;
+    border-radius: 14px;
+
+}
