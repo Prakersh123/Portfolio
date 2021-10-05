@@ -16,7 +16,7 @@ ReactDOM.render(
       <Route exact path="/" component={App} />
       <Route exact path="/login" component={Login} />
       <Route exact path="/uploadfile" component={Uploadnotification} />
-  
+    
  
     {/* <App /> */}
     </Router>
